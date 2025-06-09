@@ -42,7 +42,7 @@
 
   <li>
     Ejecuta el generador:
-    <pre><code>./data_set_generator</code></pre>
+    <pre><code>./generar_datasets</code></pre>
   </li>
 </ol>
 
