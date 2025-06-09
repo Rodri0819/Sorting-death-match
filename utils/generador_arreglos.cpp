@@ -1,3 +1,4 @@
+#include "generador_arreglos.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -45,21 +46,11 @@ std::vector<int32_t> generarParcial(int n) {
 
     // Mezclar elementos desde el 66% al final con rand()
     for (int i = desde; i < n; ++i) {
-        int j = desde + std::rand() % (n - desde);  // índice aleatorio entre [desde, n)
+        int j = desde + std::rand() % (n - desde); 
         std::swap(v[i], v[j]);
     }
 
     return v;
 }
 
-int main() {
-    int n = 1000000; //1 millón de elementos
 
-    guardarBinario("dataset_ascendente.bin", generarAscendente(n));
-    guardarBinario("dataset_descendente.bin", generarDescendente(n));
-    guardarBinario("dataset_aleatorio.bin", generarAleatorio(n));
-    guardarBinario("dataset_parcial.bin", generarParcial(n));
-
-    cout << "¡Datasets binarios generados correctamente!" << endl;
-    return 0;
-}

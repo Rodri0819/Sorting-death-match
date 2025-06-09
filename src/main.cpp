@@ -65,7 +65,7 @@ double medirPromedio(Funcion f, vector<int32_t>& datos, int repeticiones) {
 
 
 int main() {
-    string nombreArchivo = "datasets/dblp.100MB.4B.lcp"; //Poner nombre del archivo aqui
+    string nombreArchivo = "datasets/generados/dataset_descendente.bin";
     vector<int32_t> datos = leerArregloDesdeArchivo(nombreArchivo);
 
     cout << "Elementos cargados: " << datos.size() << endl;
