@@ -1,0 +1,13 @@
+algoritmo,tamano,tiempo_ms
+InsertionSort,100000;5.5284
+0.55284;ms
+MergeSort,100000;326.516
+32.6516;ms
+QuickSort,100000;199.468
+19.9468;ms
+HeapSort,100000;460.174
+46.0174;ms
+SortEstandar,100000;110.778
+11.0778;ms
+RadixSort,100000;45.2271
+4.52271;ms

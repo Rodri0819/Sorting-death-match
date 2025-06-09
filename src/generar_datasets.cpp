@@ -2,12 +2,12 @@
 #include <iostream>
 
 int main() {
-    int n = 100000;
+    int n = 1000000;
 
-    guardarBinario("datasets/generados/dataset_ascendente.bin", generarAscendente(n));
-    guardarBinario("datasets/generados/dataset_descendente.bin", generarDescendente(n));
-    guardarBinario("datasets/generados/dataset_aleatorio.bin", generarAleatorio(n));
-    guardarBinario("datasets/generados/dataset_parcial.bin", generarParcial(n));
+    guardarBinario("dataset_ascendente.bin", generarAscendente(n));
+    guardarBinario("dataset_descendente.bin", generarDescendente(n));
+    guardarBinario("dataset_aleatorio.bin", generarAleatorio(n));
+    guardarBinario("dataset_parcial.bin", generarParcial(n));
 
     std::cout << "¡Datasets binarios generados correctamente!" << std::endl;
     return 0;

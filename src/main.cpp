@@ -74,7 +74,7 @@ double medirPromedio(Funcion f, vector<int32_t>& datos, int repeticiones) {
     }
 
     //Calculamos el promedio dividiendo el total por la cantidad de repeticiones.
-    cout << "Tiempo total: " << total << " ms" << endl;
+    cout << total << endl;
     return total / repeticiones;
 }
 
