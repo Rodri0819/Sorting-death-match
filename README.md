@@ -12,7 +12,7 @@
   <h2>Integrantes</h2>
   <ul>
     <li>Rodrigo Bascuñán León</li>
-    <li>Sebastian Emir Garcia</li>
+    <li>Sebastian Garcias Cabrera</li>
   </ul>
 
   <hr>
@@ -37,7 +37,7 @@
   <li>
     Estando en la carpeta Sorting-death-match/
     compila el generador de datasets:
-    <pre><code>g++ src/generar_datasets.cpp utils/generador_arreglos.cpp -o generar_datasets.exe cpp</code></pre>
+    <pre><code>g++ src/generar_datasets.cpp utils/generador_arreglos.cpp -o generar_datasets cpp</code></pre>
   </li>
 
   <li>
