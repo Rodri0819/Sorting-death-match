@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Sorting Death-Match</title>
-</head>
+  <meta charset="UTF-8"></head>
 <body style="font-family: sans-serif; background-color: #1e1e1e; color: #000000; padding: 2rem;">
 
   <h1 align="center">Sorting death-match</h1>
@@ -20,7 +18,7 @@
   <hr>
 
   <h2>Instrucciones de uso</h2>
-  <p>Compila el proyecto con:</p>
+  <p>Estando en la carpeta Sorting-death-match/ compila el proyecto con:</p>
   <pre><code>g++ -std=c++17 -I. src/main.cpp insertion_sort/insertion_sort.cpp merge_sort/merge_sort.cpp quick_sort/quick_sort.cpp heap_sort/heap_sort_v2.cpp radix_sort/radix_sort.cpp sorting_estandar/sort_estandar.cpp -o ordenar.exe</code></pre>
 
   <p>Una vez compilado, ejecuta el programa con:</p>
@@ -37,13 +35,9 @@
 
 <ol>
   <li>
-    Abre una terminal y navega a la carpeta <code>utils</code>:
-    <pre><code>cd utils</code></pre>
-  </li>
-
-  <li>
-    Compila el generador de datasets:
-    <pre><code>g++ -o data_set_generator data_set_generator.cpp</code></pre>
+    Estando en la carpeta Sorting-death-match/
+    compila el generador de datasets:
+    <pre><code>g++ src/generar_datasets.cpp utils/generador_arreglos.cpp -o generar_datasets.exe cpp</code></pre>
   </li>
 
   <li>
