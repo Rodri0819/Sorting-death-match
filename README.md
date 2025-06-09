@@ -37,7 +37,7 @@
   <li>
     Estando en la carpeta Sorting-death-match/
     compila el generador de datasets:
-    <pre><code>g++ src/generar_datasets.cpp utils/generador_arreglos.cpp -o generar_datasets cpp</code></pre>
+    <pre><code>g++ src/generar_datasets.cpp utils/generador_arreglos.cpp -o generar_datasets </code></pre>
   </li>
 
   <li>
