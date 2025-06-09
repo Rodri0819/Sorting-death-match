@@ -25,7 +25,7 @@
   <pre><code>./ordenar &lt;archivo_dataset&gt; &lt;nombre_algoritmo&gt; &lt;repeticiones&gt;</code></pre>
 
   <p>Ejemplo:</p>
-  <pre><code>./ordenar dataset_aleatorio.bin quick_sort 20</code></pre>
+  <pre><code>./ordenar dataset_aleatorio.bin QuickSort 20</code></pre>
 
   <hr>
 
