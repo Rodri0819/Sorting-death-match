@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    int n = 1000000;
+    int n = 2621440;
 
     guardarBinario("dataset_ascendente.bin", generarAscendente(n));
     guardarBinario("dataset_descendente.bin", generarDescendente(n));

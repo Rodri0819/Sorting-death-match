@@ -44,7 +44,7 @@ std::vector<int32_t> generarParcial(int n) {
     std::vector<int32_t> v = generarDescendente(n); //o generarAscendente(n);
     int desde = n * 0.66;
 
-    // Mezclar elementos desde el 66% al final con rand()
+    //Mezclar elementos desde el 66% al final con rand()
     for (int i = desde; i < n; ++i) {
         int j = desde + std::rand() % (n - desde); 
         std::swap(v[i], v[j]);

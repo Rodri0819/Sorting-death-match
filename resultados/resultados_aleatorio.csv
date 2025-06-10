@@ -1,1 +1,11 @@
 algoritmo,tamano,tiempo_ms
+MergeSort,2621440;26807.6
+1340.38;ms
+HeapSort,2621440;35861.9
+1793.09;ms
+QuickSort,2621440;14472.6
+723.629;ms
+SortEstandar,2621440;15238.7
+761.933;ms
+RadixSort,2621440;3091.78
+154.589;ms

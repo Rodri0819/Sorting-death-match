@@ -1,7 +1,7 @@
 #!/bin/bash
 
 EXEC=./ordenar
-REPS=10
+REPS=20
 RESULTS_DIR="resultados"
 
 # Crear carpeta de resultados si no existe
@@ -11,7 +11,7 @@ mkdir -p "$RESULTS_DIR"
 TIPOS=("ascendente" "descendente" "aleatorio" "parcial")
 
 # Algoritmos definidos
-ALGORITMOS=("InsertionSort" "MergeSort" "QuickSort" "HeapSort" "SortEstandar" "RadixSort")
+ALGORITMOS=("MergeSort" "HeapSort" "QuickSort" "SortEstandar" "RadixSort")
 
 # Encabezado CSV
 for tipo in "${TIPOS[@]}"; do
